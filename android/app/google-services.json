@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "328489858809",
+    "firebase_url": "https://images-online-e260c.firebaseio.com",
+    "project_id": "images-online-e260c",
+    "storage_bucket": "images-online-e260c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328489858809:android:045fb1dbe92452954f5428",
+        "android_client_info": {
+          "package_name": "com.example.imagesonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328489858809-kcbmm0md1hvqdo29p3ugpmk0qja7gklj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpwynkOQ4JFZMJur9vpRvvYbPt8giTgOk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "328489858809-kcbmm0md1hvqdo29p3ugpmk0qja7gklj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

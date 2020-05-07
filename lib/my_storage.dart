@@ -1,0 +1,15 @@
+List<String> data=[];
+// 'pokemon.jpg',
+// 'alakazam.png',
+//  'articuno.jpg',
+//  'bulbasor.jpg',
+//  'celebi.jpg',
+//  'charmendar.png',
+//  'gyarados.jpg',
+//  'legendary.jpg',
+//  'mew.jpg',
+//  'mewto.jpg',
+//  'pikachu.png',
+//  'snorlax.jpg',
+//  'squirtle.jpg',
+//  'zapdos.jpg'
