@@ -17,6 +17,7 @@ class _loadingScreenState extends State<loadingScreen> {
   }
 
   void makeMyList() async {
+    data=[];//For Refresh
     final _store = Firestore.instance;
     await for (var pokemon in _store.collection('pokemon').snapshots()) {
       for (var pokemonName in pokemon.documents) {
@@ -26,7 +27,7 @@ class _loadingScreenState extends State<loadingScreen> {
       data.sort();
       break;
     }
-    Navigator.pushNamed(context, finalScreen.id);
+    Navigator.pushNamedAndRemoveUntil(context, finalScreen.id,(Route<dynamic> route) => false);
   }
 
   @override
