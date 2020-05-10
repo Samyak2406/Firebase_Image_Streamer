@@ -177,6 +177,27 @@
             </list>
           </value>
         </entry>
+        <entry key="google_sign_in">
+          <value>
+            <list>
+              <option value="E:/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in-4.4.4/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="google_sign_in_platform_interface">
+          <value>
+            <list>
+              <option value="E:/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in_platform_interface-1.1.1/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="google_sign_in_web">
+          <value>
+            <list>
+              <option value="E:/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in_web-0.9.1/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="http">
           <value>
             <list>
@@ -370,6 +391,9 @@
       <root url="file://E:/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-0.1.1+2/lib" />
       <root url="file://E:/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_storage-3.1.5/lib" />
       <root url="file://E:/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-1.0.7/lib" />
+      <root url="file://E:/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in-4.4.4/lib" />
+      <root url="file://E:/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in_platform_interface-1.1.1/lib" />
+      <root url="file://E:/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in_web-0.9.1/lib" />
       <root url="file://E:/flutter/.pub-cache/hosted/pub.dartlang.org/http-0.12.1/lib" />
       <root url="file://E:/flutter/.pub-cache/hosted/pub.dartlang.org/http_parser-3.1.4/lib" />
       <root url="file://E:/flutter/.pub-cache/hosted/pub.dartlang.org/image-2.1.4/lib" />

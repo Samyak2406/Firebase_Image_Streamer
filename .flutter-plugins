@@ -8,4 +8,6 @@ firebase_core=E:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_core-0
 firebase_core_web=E:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_core_web-0.1.1+2\\
 firebase_storage=E:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_storage-3.1.5\\
 flutter_plugin_android_lifecycle=E:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\flutter_plugin_android_lifecycle-1.0.7\\
+google_sign_in=E:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\google_sign_in-4.4.4\\
+google_sign_in_web=E:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\google_sign_in_web-0.9.1\\
 image_picker=E:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\image_picker-0.6.6+1\\

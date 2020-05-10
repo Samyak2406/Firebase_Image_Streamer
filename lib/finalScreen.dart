@@ -2,6 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:imagesonline/finalScreenDrawer.dart';
 import 'my_storage.dart';
 import 'add_image.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
@@ -36,31 +37,7 @@ class _finalScreenState extends State<finalScreen> {
         title: Text('ImAgES oNliNe'),
         centerTitle: true,
       ),
-      drawer: Drawer(
-        child: ListView(
-          children: <Widget>[
-            DrawerHeader(
-              child: Center(
-                child: Container(
-                  color: Colors.white,
-                  child: Text(
-                    '_',
-                    style: TextStyle(
-                      color: Colors.greenAccent,
-                    ),
-                  ),
-                ),
-              ),
-            ),
-            ListTile(
-              title: Text('#'),
-            ),
-            ListTile(
-              title: Text('@'),
-            ),
-          ],
-        ),
-      ),
+      drawer: finalScreenDrawer(),
       body:SafeArea(
         child: SmartRefresher(
           enablePullDown: true,
