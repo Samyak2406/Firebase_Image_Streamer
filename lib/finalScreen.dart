@@ -2,6 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:imagesonline/AboutUs.dart';
 import 'package:imagesonline/finalScreenDrawer.dart';
 import 'my_storage.dart';
 import 'add_image.dart';
@@ -34,10 +35,14 @@ class _finalScreenState extends State<finalScreen> {
     return Scaffold(
       floatingActionButton: add_image(),
       appBar: AppBar(
-        title: Text('ImAgES oNliNe'),
+        title: Text('Pokémon'),
         centerTitle: true,
       ),
-      drawer: finalScreenDrawer(),
+      drawer: finalScreenDrawer(
+          (){
+            Navigator.pushNamed(context, AboutUs.id);
+          }
+      ),
       body:SafeArea(
         child: SmartRefresher(
           enablePullDown: true,
@@ -54,7 +59,7 @@ class _finalScreenState extends State<finalScreen> {
                   if (snapshot.hasData &&
                       snapshot.connectionState == ConnectionState.done) {
                     return Container(
-                      height: 250,
+                      height: 350,
                       child: snapshot.data,
                     );
                   } else {

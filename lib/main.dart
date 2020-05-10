@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:imagesonline/finalScreen.dart';
 import 'loadingScreen.dart';
+import 'AboutUs.dart';
 
 void main() => runApp(MyApp());
 
@@ -13,6 +14,7 @@ class MyApp extends StatelessWidget {
       routes: {
         loadingScreen.id: (context) => loadingScreen(),
         finalScreen.id: (context) => finalScreen(),
+        AboutUs.id:(context) => AboutUs()
       },
     );
   }

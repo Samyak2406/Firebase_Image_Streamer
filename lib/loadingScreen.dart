@@ -22,9 +22,10 @@ class _loadingScreenState extends State<loadingScreen> {
     await for (var pokemon in _store.collection('pokemon').snapshots()) {
       for (var pokemonName in pokemon.documents) {
         data.add(pokemonName.data['name'].toString());
-//        print(pokemonName.data['name'].toString());
+        print(pokemonName.data['name'].toString());
       }
       data.sort();
+      data.insert(0, 'pokemon.jpg');
       break;
     }
     Navigator.pushNamedAndRemoveUntil(context, finalScreen.id,(Route<dynamic> route) => false);
