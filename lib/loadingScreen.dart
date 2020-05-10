@@ -21,18 +21,21 @@ class _loadingScreenState extends State<loadingScreen> {
     await for (var pokemon in _store.collection('pokemon').snapshots()) {
       for (var pokemonName in pokemon.documents) {
         data.add(pokemonName.data['name'].toString());
-        print(pokemonName.data['name'].toString());
+//        print(pokemonName.data['name'].toString());
       }
       data.sort();
-      Navigator.pushNamed(context, finalScreen.id);
+      break;
     }
+    Navigator.pushNamed(context, finalScreen.id);
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child:  CircularProgressIndicator(),
+        child:  CircularProgressIndicator(
+          backgroundColor: Colors.red,
+        ),
       ),
     );
   }
